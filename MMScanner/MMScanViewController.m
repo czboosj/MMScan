@@ -169,6 +169,7 @@
     }
     
     if (metadataObjects.count>0) {
+        /// 数据 代理
         [self.session stopRunning];
         AVMetadataMachineReadableCodeObject *metadataObject = metadataObjects.firstObject;
         [self renderUrlStr:metadataObject.stringValue];
